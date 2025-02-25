@@ -31,7 +31,7 @@ VideoToASCII/
 1. Download and extract the repository.
 2. Download and extract the required FFmpeg binary and DLLs from the release section.
 3. Ensure that `ffmpeg.exe` is placed in the project root directory.
-4. ⚠️ Before running, download and extract:
+⚠️ Before running, download and extract:
 [Download ZIP](https://github.com/Ithamarbaron/VideoToAscii/releases)
 
 
