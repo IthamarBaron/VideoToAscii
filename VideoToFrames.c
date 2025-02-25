@@ -24,7 +24,7 @@ void ExtractFrames(char* videoPath) {
     // Construct the FFmpeg command to extract frames (and close cmd after execution)
     snprintf(command, sizeof(command),
          "cmd /c ffmpeg -i %s -vf \"fps=%d,scale=%d:%d\" %s/frame_%%04d.png",
-         VIDEO_PATH, FPS, SCALE_WIDTH, SCALE_HEIGHT, OUTPUT_FOLDER);
+         videoPath, FPS, SCALE_WIDTH, SCALE_HEIGHT, OUTPUT_FOLDER);
 
 
 
